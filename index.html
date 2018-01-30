@@ -1,0 +1,81 @@
+
+<!doctype html>
+<html>
+<!-- HTML is tag based, like body, tittle, head, .... All tags must be
+opened and closed, viewed below. -->
+
+<head>
+        <title> Ethan Lewis </title>
+        <link rel = "stylesheet" type = "text/css" href = "style.css"/>
+</head>
+
+      <body>
+      <!--<p style= "text-align: center;"><img src = "teamcopy.jpg" alt = "paddling" width = "550" height = "250"></p> -->
+
+      <script>
+        function myFunction(x) {
+          if (x === "m"){
+            document.getElementById("me").style.display = "block";
+            document.getElementById("site").style.display = "none";
+          }else{
+            document.getElementById("site").style.display = "block";
+            document.getElementById("me").style.display = "none";
+
+          }
+        }
+      </script>
+
+      <!-- <img src="http://www.cmsathletics.org/sports/mwaterpolo/2016-17/photos/Bio_Photos/Cropped_Photo/Lewis.jpg?max_width=300"
+        alt="picture of ethan" style="width:250px;height:300px;"> -->
+
+        <h1> Welcome! </h1>
+
+        <img id = "paddling" src = "teamcopy.jpg" alt = "Paddling" width = "100%" height = "30%"
+          aligh: center >
+        <ul>
+          <li class = "active"> Click to read about: <li>
+          <li class="showText" onclick="myFunction('m')"> Me <li>
+          <li class="showText" onclick="myFunction('s')"> This Site <li>
+          </ul>
+
+
+          <div id="me">
+            <p style = "text-align: center; color: white">Hi! My name is
+              Ethan Lewis and am currently a student at Claremont Mckenna
+            College. I am majoring in computer science through Harvey Mudd Colleges'
+              off campus program. <br> I was born and raised in Honolulu Hawaii where I grew
+              up hiking, eating mass quantities of poke, and most likely preforming every
+              water sport you could think of. </br> <br>I was lucky enough to attend
+              Punahou High School where my interest for CS developed. I took the AP
+                Comptuer Science course offered there and fell in love with the problem
+              solving,  creativity, and satisfaction aspects of CS. </br> <br> I would describe
+              myself as someone who is high functioning and will get things done. I can adapt
+            and learn on the fly and usually will enjoy doing so. This can be shown acedemically
+            with this website and teaching myself the basics of website developement and similarly
+            in my atheletic career where being the captain of two varisty teams ("waterpolo, canoe
+            paddling")  I led us to two state championships. </br> <br> If you are an employer  and
+          would like to contact me, my resume and LinkedIn can be found bellow!</br></p>
+          </div>
+          <div id="site">
+            <p style = "text-align: center; color: white">This site was developed by me from scratch to gain practice and expirience with HTML, CSS,
+              and Java Script while also giving people a more personal way of getting to know me.
+            <br>All files and code from this site can be found in my GitHub which is linked down
+              below.</br></p>
+          </div>
+        <img id = "resume" src ="EthanLewis_Resume.pdf" alt= "Resume" width = "700" height = "900";
+        align = "center">
+
+
+        <!-- <a> tag makes a hyper link to another site, but must apply attributes
+      or it wont go anywhere. So we must use href = "_siteURL_" -->
+      <ul>
+              <p style = "text-align: center; color: white">
+                Check out my LinkedIn <a style = "color: lightblue" href=
+                "https://www.linkedin.com/in/ethan-lewis-64469114a/">here!</a></p>
+
+                <p style = "text-align: center; color: white">Check out my GitHub
+                  <a style = "color: lightblue" href=
+                  "https://github.com/elewis3927">here!</a></p>
+      </ul>
+      </body>
+</html>

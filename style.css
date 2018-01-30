@@ -1,0 +1,82 @@
+
+  body{
+    border: 2px solid black;
+    background-image: url("bgtan.jpg");
+    background-repeat: repeat-x;
+    background-size: cover;
+    margin: 25px 50px 75px 100px
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border: solid 1px #a6d8a8;
+  }
+
+li {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 10px;
+}
+
+  li:hover:not(.active) {
+    background-color: #333;
+  }
+  .active {
+    background-color: red;
+  }
+
+  h1{
+  color: white;
+  text-align: center;
+  background-color: #333;
+  padding: 5px;
+  margin: auto
+  }
+
+  p{
+    color: white;
+    text-align: center;
+  }
+  a{
+    color: lightblue;
+  }
+
+  #me, .showText{
+    color: white;
+    background-color: black;
+    text-align: center;
+    border: solid 1px #a6d8a8;
+    margin: auto;
+
+  }
+
+  #me{
+    display: none;
+  }
+
+  #site, .showText{
+    color: white;
+    background-color: black;
+    text-align: center;
+    border: solid 1px #a6d8a8;
+    margin: auto;
+  }
+
+  #site {
+    display: none;
+  }
+  #resume, img {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+
+    }
+    #paddling, img{
+      margin-left: auto;
+      margin-right: auto;
+    }
